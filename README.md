@@ -1,2 +1,5 @@
 # DS-5110-Final-Project
-Hourly Electric Price Prediction of Spain
+
+Team Member: Weipeng Zhang, Ziyue Wang, Mingni Luo, Soham Shinde
+
+Code Author: Weipeng Zhang
