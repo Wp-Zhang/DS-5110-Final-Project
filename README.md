@@ -2,6 +2,10 @@
 
 Authors: Weipeng Zhang, Soham Shinde, Mingni Luo, Ziyue Wang
 
+**Realted Links:**
+- [EDA & Baseline](https://github.com/Wp-Zhang/DS-5110-Final-Project/blob/main/EDA %26 Baseline.ipynb)
+- [Final Code(my part)](https://github.com/Wp-Zhang/DS-5110-Final-Project/blob/main/Electric%20Price%20Prediction%20-%20Weipeng%20Zhang.ipynb)
+
 Summary 
 ========
 
