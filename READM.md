@@ -1,5 +1,3 @@
-
-
 # ELECTRICAL PRICE PREDICTION
 
 Authors: Weipeng Zhang, Soham Shinde, Mingni Luo, Ziyue Wang
@@ -156,61 +154,15 @@ The scaled data should only be computed using the training data so we only fit t
 Results
 =======
 
-Model
+| Model                                                 | Linear Regressor | Ridge Regressor | Random Forest | LightGBM | XGBoost | CatBoost |
+| ----------------------------------------------------- | ---------------- | --------------- | ------------- | -------- | ------- | -------- |
+| RMSE                                                  | 6.982            | 6.980           | 6.47          | 6.27     | 6.39    | 6.21     |
+| *Table 1. RMSE value for classical regression models* |                  |                 |               |          |         |          |
 
-Linear Regressor
-
-Ridge Regressor
-
-Random Forest
-
-LightGBM
-
-XGBoost
-
-CatBoost
-
-RMSE
-
-6.982
-
-6.980
-
-6.47
-
-6.27
-
-6.39
-
-6.21
-
-Table 1. RMSE value for classical regression models
-
-Model
-
-ARIMA
-
-VAR
-
-Prophet Uni.
-
-Prophet Multi.
-
-LSTM
-
-RMSE
-
-14.15
-
-14.08
-
-13.21
-
-9.90
-
-4.45
-
-Table 2. RMSE value for time series models
+| Model                                        | ARIMA | VAR   | Prophet Uni. | Prophet Multi. | LSTM |
+| -------------------------------------------- | ----- | ----- | ------------ | -------------- | ---- |
+| RMSE                                         | 14.15 | 14.08 | 13.21        | 9.90           | 4.45 |
+| *Table 2. RMSE value for time series models* |       |       |              |                |      |
 
 In the case of Time-Series models, the LSTM model has the most accuracy followed by the Prophet and then the ARIMA models. For classical regression models, CatBoost has the best performance among all. We further compared our prediction result with the forecast value from the Transmission Service Operator (TSO). It shows that the RMSE value of our best model is 45% less than TSO, which verified that our prediction is better than theirs \[Fig A7\].
 
